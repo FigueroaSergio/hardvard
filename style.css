@@ -17,16 +17,9 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-table {
-    border: 2px solid orange;
-
-}
-
-td {
-    border: 2px solid orange;
-
-}
-
+table,
+td,
 th {
     border: 2px solid orange;
+
 }
