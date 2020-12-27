@@ -1,5 +1,7 @@
-h1 {
-    color: red;
+h1,
+h2 {
+
+    color: orange;
     text-align: left;
 }
 
@@ -21,5 +23,28 @@ table,
 td,
 th {
     border: 2px solid orange;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+}
 
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orangered;
+}
+
+a:visited {
+    color: orangered;
+}
+
+ul>li {
+    color: orange;
+}
+
+ul li a {
+    List-style-type: none;
 }
