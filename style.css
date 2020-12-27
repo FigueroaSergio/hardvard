@@ -1,0 +1,32 @@
+h1 {
+    color: red;
+    text-align: left;
+}
+
+.mydiv {
+    background-color: orange;
+    height: 200px;
+    width: 200px;
+    /* da un espacio a los elementos adentro del div con respecto al div */
+    padding: 30px;
+    /* da un espacio con respecto al elemento en el que esta contenido */
+    margin: 0 auto;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border: 2px solid orange;
+
+}
+
+td {
+    border: 2px solid orange;
+
+}
+
+th {
+    border: 2px solid orange;
+}
