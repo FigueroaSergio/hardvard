@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello</title>
+</head>
+
+<body>
+    Hello world
+    <h2>links</h2>
+    <!-- anchor tag etiquetade anclaje -->
+    <ul>
+        <li> <a href="https://figueroasergio.github.io/">Mi Pagina Web</a>
+        </li>
+        <li><a href="#titulos"> Titulos</a></li>
+        <li><a href="#listasOrdenadas">Listas Ordenadas</a></li>
+        <li><a href="#listasNoOrdenadas">Listas No Ordenada</a></li>
+        <li><a href="#imagenes">Imagenes</a></li>
+        <li><a href="#tablas">Tablas</a></li>
+        <li><a href="#formularios">Formularios</a></li>
+    </ul>
+    <h1 id="titulo1">Titulos</h1>
+    <h1>Heading H1</h1>
+    <h2>Titulo H2</h2>
+    <h3>Titulo H3</h3>
+    <h4>Titulo H4</h4>
+    <h5>Titulo H5</h5>
+    <h6>Titulo H6</h6>
+    <p>Parrafo</p>
+    <h2 id="listasOrdenadas">Listas Ordenada</h2>
+    <!-- ordered list -->
+    <ol>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ol>
+    <h2 id="listasNoOrdenadas">Listas No Ordenada</h2>
+    <!-- unordered list -->
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+    </ul>
+    <h2 id="imagenes">Imagenes</h2>
+    <img src="camion.png" alt="camion" width="30%">
+    <h2 id="tablas">Tablas</h2>
+    <table>
+        <!-- Titulos para la tabla -->
+        <thead>
+            <!-- th representa las columnas -->
+            <th>Ocean</th>
+            <th>Promedio Profundidad</th>
+            <th>Max Profundidad</th>
+        </thead>
+        <!-- Cuerppo de la tabla -->
+        <tbody>
+            <!-- tr declara una fila (row) -->
+            <tr>
+                <!-- table data -->
+                <td>Pacifico</td>
+                <td>4,280 m</td>
+                <td>10,1911 m</td>
+            </tr>
+            <tr>
+                <td>Atlantico</td>
+                <td>3,646 m</td>
+                <td>8,486 m</td>
+            </tr>
+
+        </tbody>
+    </table>
+    <h2 id="formularios">Formularios</h2>
+    <form>
+        <div>
+            <input type="text" name="name" placeholder="Nombre completo">
+            <input type="password" name="password" placeholder="Contraseña">
+        </div>
+        <div>
+            Color Favorito
+            <input type="radio" name="color" value="rojo"> Rojo
+            <input type="radio" name="color" value=" verde"> Verde
+        </div>
+        <div>
+            Numeros Favorito?
+            <input type="radio" name="1">1
+            <input type="radio" name="2">2
+            <input type="radio" name="3">3
+            <input type="radio" name="4">4
+            <input type="radio" name="5">5
+
+
+        </div>
+        <div>
+            <input name="pais" placeholder="Pais" list="Paises">
+            <datalist id="Paises">
+                <option value="Colombia"></option>
+                <option value="Mexico"></option>
+                <option value="Argentina"></option>
+            </datalist>
+        </div>
+
+        <input type="submit">
+    </form>
+</body>
+
+</html>
