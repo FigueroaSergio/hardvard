@@ -1,0 +1,31 @@
+@media (min-width:2000px) {
+    body {
+        background-color: white;
+        color: black;
+    }
+
+}
+
+@media(max-width:1000px) {
+    body {
+        background-color: black;
+        color: white;
+    }
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+
+#container>div {
+    background-color: tomato;
+    font-size: 20px;
+    margin: 12px;
+    padding: 12px;
+    width: 200px;
+
+
+}
