@@ -1,0 +1,49 @@
+$color:blue;
+
+div {
+    font-size: 20px;
+
+    ul {
+        color: green;
+    }
+}
+
+ul {
+    font-size: 14px;
+    color: $color;
+
+}
+
+ol {
+    font-size: 20px;
+    color: $color;
+}
+
+h4 {
+    color: $color;
+}
+
+%messages {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.success {
+    @extend %messages;
+    background-color: chartreuse;
+}
+
+.warning {
+    @extend %messages;
+    background-color: yellow;
+}
+
+.error {
+    @extend %messages;
+    background-color: red;
+}
