@@ -9,7 +9,7 @@
 @media(max-width:1000px) {
     body {
         background-color: black;
-        color: white;
+        color: lightblue;
     }
 }
 
@@ -26,6 +26,26 @@
     margin: 12px;
     padding: 12px;
     width: 200px;
+    color: black;
 
 
+}
+
+#grid {
+    background-color: black;
+
+    display: grid;
+    padding: 20px;
+    /* Espacio entre columnas */
+    column-gap: 20px;
+    /* Espacio entre filas */
+    row-gap: 10px;
+    /* Cuantas columnas se quieren y que ancho */
+    grid-template-columns: 20% 20% auto;
+}
+
+.grid-item {
+    background-color: white;
+    color: black;
+    text-align: center;
 }
